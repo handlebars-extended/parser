@@ -1,0 +1,1808 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parser should parse basic HTML 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    ",
+          "type": "JSXText",
+          "value": "
+    ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "raw": "Hello World",
+              "type": "JSXText",
+              "value": "Hello World",
+            },
+            Object {
+              "raw": "
+    ",
+              "type": "JSXText",
+              "value": "
+    ",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "raw": "This is a basic article",
+                  "type": "JSXText",
+                  "value": "This is a basic article",
+                },
+                Object {
+                  "raw": "
+",
+                  "type": "JSXText",
+                  "value": "
+",
+                },
+              ],
+              "closingElement": Object {
+                "name": Object {
+                  "name": "p",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXClosingElement",
+              },
+              "openingElement": Object {
+                "attributes": Array [],
+                "name": Object {
+                  "name": "p",
+                  "type": "JSXIdentifier",
+                },
+                "selfClosing": false,
+                "type": "JSXOpeningElement",
+              },
+              "type": "JSXElement",
+            },
+          ],
+          "closingElement": Object {
+            "name": Object {
+              "name": "h2",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXClosingElement",
+          },
+          "openingElement": Object {
+            "attributes": Array [],
+            "name": Object {
+              "name": "h2",
+              "type": "JSXIdentifier",
+            },
+            "selfClosing": false,
+            "type": "JSXOpeningElement",
+          },
+          "type": "JSXElement",
+        },
+      ],
+      "closingElement": Object {
+        "name": Object {
+          "name": "article",
+          "type": "JSXIdentifier",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [],
+        "name": Object {
+          "name": "article",
+          "type": "JSXIdentifier",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse block helpers 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    ",
+          "type": "JSXText",
+          "value": "
+    ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "raw": "
+        ",
+              "type": "JSXText",
+              "value": "
+        ",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "expression": Object {
+                    "object": Object {
+                      "name": "person",
+                      "type": "Identifier",
+                    },
+                    "property": Object {
+                      "name": "name",
+                      "type": "Identifier",
+                    },
+                    "type": "MemberExpression",
+                  },
+                  "type": "JSXExpressionContainer",
+                },
+                Object {
+                  "raw": "
+    ",
+                  "type": "JSXText",
+                  "value": "
+    ",
+                },
+              ],
+              "closingElement": Object {
+                "name": Object {
+                  "name": "li",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXClosingElement",
+              },
+              "openingElement": Object {
+                "attributes": Array [],
+                "name": Object {
+                  "name": "li",
+                  "type": "JSXIdentifier",
+                },
+                "selfClosing": false,
+                "type": "JSXOpeningElement",
+              },
+              "type": "JSXElement",
+            },
+            Object {
+              "raw": "
+",
+              "type": "JSXText",
+              "value": "
+",
+            },
+          ],
+          "closingCall": Object {
+            "name": Object {
+              "name": "each",
+              "type": "Identifier",
+            },
+            "type": "HBBlockClosing",
+          },
+          "inverse": null,
+          "openingCall": Object {
+            "arguments": Array [
+              Object {
+                "name": "people",
+                "type": "Identifier",
+              },
+            ],
+            "hash": Object {
+              "kind": "init",
+              "properties": Array [],
+              "type": "ObjectExpression",
+            },
+            "name": Object {
+              "name": "each",
+              "type": "Identifier",
+            },
+            "params": Array [
+              Object {
+                "name": "person",
+                "type": "Identifier",
+              },
+            ],
+            "type": "HBBlockOpening",
+          },
+          "type": "HBBlockHelperCall",
+        },
+      ],
+      "closingElement": Object {
+        "name": Object {
+          "name": "ul",
+          "type": "JSXIdentifier",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [],
+        "name": Object {
+          "name": "ul",
+          "type": "JSXIdentifier",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse css module usages 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "attributes": Array [
+        Object {
+          "name": Object {
+            "name": Object {
+              "name": "css",
+              "type": "JSXIdentifier",
+            },
+            "namespace": Object {
+              "name": "cssns",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXNamespacedName",
+          },
+          "type": "JSXAttribute",
+          "value": Object {
+            "raw": "\\"./article.module.css\\"",
+            "type": "Literal",
+            "value": "./article.module.css",
+          },
+        },
+      ],
+      "type": "HBProcessingInstruction",
+    },
+    Object {
+      "raw": "
+",
+      "type": "JSXText",
+      "value": "
+",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    ",
+          "type": "JSXText",
+          "value": "
+    ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "expression": Object {
+                "name": "title",
+                "type": "Identifier",
+              },
+              "type": "JSXExpressionContainer",
+            },
+            Object {
+              "raw": "
+    ",
+              "type": "JSXText",
+              "value": "
+    ",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "expression": Object {
+                    "name": "content",
+                    "type": "Identifier",
+                  },
+                  "type": "JSXExpressionContainer",
+                },
+                Object {
+                  "raw": "
+",
+                  "type": "JSXText",
+                  "value": "
+",
+                },
+              ],
+              "closingElement": Object {
+                "name": Object {
+                  "name": "p",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXClosingElement",
+              },
+              "openingElement": Object {
+                "attributes": Array [
+                  Object {
+                    "name": Object {
+                      "name": Object {
+                        "name": "truncate",
+                        "type": "JSXIdentifier",
+                      },
+                      "namespace": Object {
+                        "name": "css",
+                        "type": "JSXIdentifier",
+                      },
+                      "type": "JSXNamespacedName",
+                    },
+                    "type": "JSXAttribute",
+                    "value": Object {
+                      "expression": Object {
+                        "name": "isTruncated",
+                        "type": "Identifier",
+                      },
+                      "type": "JSXExpressionContainer",
+                    },
+                  },
+                ],
+                "name": Object {
+                  "name": "p",
+                  "type": "JSXIdentifier",
+                },
+                "selfClosing": false,
+                "type": "JSXOpeningElement",
+              },
+              "type": "JSXElement",
+            },
+          ],
+          "closingElement": Object {
+            "name": Object {
+              "name": "h2",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXClosingElement",
+          },
+          "openingElement": Object {
+            "attributes": Array [
+              Object {
+                "name": Object {
+                  "name": Object {
+                    "name": "font-size-medium",
+                    "type": "JSXIdentifier",
+                  },
+                  "namespace": Object {
+                    "name": "css",
+                    "type": "JSXIdentifier",
+                  },
+                  "type": "JSXNamespacedName",
+                },
+                "type": "JSXAttribute",
+                "value": null,
+              },
+              Object {
+                "name": Object {
+                  "name": Object {
+                    "name": "font-color-bold",
+                    "type": "JSXIdentifier",
+                  },
+                  "namespace": Object {
+                    "name": "css",
+                    "type": "JSXIdentifier",
+                  },
+                  "type": "JSXNamespacedName",
+                },
+                "type": "JSXAttribute",
+                "value": null,
+              },
+            ],
+            "name": Object {
+              "name": "h2",
+              "type": "JSXIdentifier",
+            },
+            "selfClosing": false,
+            "type": "JSXOpeningElement",
+          },
+          "type": "JSXElement",
+        },
+      ],
+      "closingElement": Object {
+        "name": Object {
+          "name": "article",
+          "type": "JSXIdentifier",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [
+          Object {
+            "name": Object {
+              "name": Object {
+                "name": "text-container",
+                "type": "JSXIdentifier",
+              },
+              "namespace": Object {
+                "name": "css",
+                "type": "JSXIdentifier",
+              },
+              "type": "JSXNamespacedName",
+            },
+            "type": "JSXAttribute",
+            "value": null,
+          },
+        ],
+        "name": Object {
+          "name": "article",
+          "type": "JSXIdentifier",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse else blocks 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    ",
+          "type": "JSXText",
+          "value": "
+    ",
+        },
+        Object {
+          "children": Array [],
+          "closingElement": null,
+          "openingElement": Object {
+            "attributes": Array [
+              Object {
+                "name": Object {
+                  "name": "src",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXAttribute",
+                "value": Object {
+                  "expression": Object {
+                    "name": "src",
+                    "type": "Identifier",
+                  },
+                  "type": "JSXExpressionContainer",
+                },
+              },
+            ],
+            "name": Object {
+              "name": "img",
+              "type": "JSXIdentifier",
+            },
+            "selfClosing": true,
+            "type": "JSXOpeningElement",
+          },
+          "type": "JSXElement",
+        },
+        Object {
+          "raw": "
+",
+          "type": "JSXText",
+          "value": "
+",
+        },
+      ],
+      "closingCall": Object {
+        "name": Object {
+          "name": "if",
+          "type": "Identifier",
+        },
+        "type": "HBBlockClosing",
+      },
+      "inverse": Object {
+        "children": Array [
+          Object {
+            "raw": "
+    ",
+            "type": "JSXText",
+            "value": "
+    ",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "raw": "No image available",
+                "type": "JSXText",
+                "value": "No image available",
+              },
+              Object {
+                "raw": "
+",
+                "type": "JSXText",
+                "value": "
+",
+              },
+            ],
+            "closingElement": Object {
+              "name": Object {
+                "name": "p",
+                "type": "JSXIdentifier",
+              },
+              "type": "JSXClosingElement",
+            },
+            "openingElement": Object {
+              "attributes": Array [],
+              "name": Object {
+                "name": "p",
+                "type": "JSXIdentifier",
+              },
+              "selfClosing": false,
+              "type": "JSXOpeningElement",
+            },
+            "type": "JSXElement",
+          },
+        ],
+        "expression": null,
+        "type": "HBElseExpression",
+      },
+      "openingCall": Object {
+        "arguments": Array [
+          Object {
+            "name": "hasImage",
+            "type": "Identifier",
+          },
+        ],
+        "hash": Object {
+          "kind": "init",
+          "properties": Array [],
+          "type": "ObjectExpression",
+        },
+        "name": Object {
+          "name": "if",
+          "type": "Identifier",
+        },
+        "params": Array [],
+        "type": "HBBlockOpening",
+      },
+      "type": "HBBlockHelperCall",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse helpers 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    ",
+          "type": "JSXText",
+          "value": "
+    ",
+        },
+        Object {
+          "expression": Object {
+            "arguments": Array [
+              Object {
+                "raw": "\\"hello\\"",
+                "type": "Literal",
+                "value": "hello",
+              },
+            ],
+            "hash": Object {
+              "kind": "init",
+              "properties": Array [
+                Object {
+                  "key": Object {
+                    "name": "name",
+                    "type": "Identifier",
+                  },
+                  "type": "Property",
+                  "value": Object {
+                    "raw": "\\"Patrick\\"",
+                    "type": "Literal",
+                    "value": "Patrick",
+                  },
+                },
+              ],
+              "type": "ObjectExpression",
+            },
+            "name": Object {
+              "name": "translate",
+              "type": "Identifier",
+            },
+            "type": "HBHelperCall",
+          },
+          "type": "JSXExpressionContainer",
+        },
+        Object {
+          "raw": "
+",
+          "type": "JSXText",
+          "value": "
+",
+        },
+      ],
+      "closingElement": Object {
+        "name": Object {
+          "name": "p",
+          "type": "JSXIdentifier",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [],
+        "name": Object {
+          "name": "p",
+          "type": "JSXIdentifier",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse html attributes 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [],
+      "closingElement": Object {
+        "name": Object {
+          "name": "div",
+          "type": "JSXIdentifier",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [
+          Object {
+            "name": Object {
+              "name": "class",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXAttribute",
+            "value": Object {
+              "raw": "\\"test foo\\"",
+              "type": "Literal",
+              "value": "test foo",
+            },
+          },
+          Object {
+            "name": Object {
+              "name": "id",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXAttribute",
+            "value": Object {
+              "expression": Object {
+                "name": "id",
+                "type": "Identifier",
+              },
+              "type": "JSXExpressionContainer",
+            },
+          },
+          Object {
+            "name": Object {
+              "name": "jsx",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXAttribute",
+            "value": null,
+          },
+          Object {
+            "name": Object {
+              "name": Object {
+                "name": "bar",
+                "type": "JSXIdentifier",
+              },
+              "namespace": Object {
+                "name": "foo",
+                "type": "JSXIdentifier",
+              },
+              "type": "JSXNamespacedName",
+            },
+            "type": "JSXAttribute",
+            "value": Object {
+              "raw": "\\"baz\\"",
+              "type": "Literal",
+              "value": "baz",
+            },
+          },
+          Object {
+            "name": Object {
+              "name": "embedded",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXAttribute",
+            "value": Object {
+              "expression": Object {
+                "expressions": Array [
+                  Object {
+                    "name": "world",
+                    "type": "Identifier",
+                  },
+                ],
+                "quasis": Array [
+                  Object {
+                    "tail": false,
+                    "type": "TemplateElement",
+                    "value": Object {
+                      "cooked": "hello ",
+                      "raw": "hello ",
+                    },
+                  },
+                  Object {
+                    "tail": true,
+                    "type": "TemplateElement",
+                    "value": Object {
+                      "cooked": "",
+                      "raw": "",
+                    },
+                  },
+                ],
+                "type": "TemplateLiteral",
+              },
+              "type": "JSXExpressionContainer",
+            },
+          },
+          Object {
+            "name": Object {
+              "name": "emptystart",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXAttribute",
+            "value": Object {
+              "expression": Object {
+                "expressions": Array [
+                  Object {
+                    "name": "hello",
+                    "type": "Identifier",
+                  },
+                ],
+                "quasis": Array [
+                  Object {
+                    "tail": false,
+                    "type": "TemplateElement",
+                    "value": Object {
+                      "cooked": "",
+                      "raw": "",
+                    },
+                  },
+                  Object {
+                    "tail": true,
+                    "type": "TemplateElement",
+                    "value": Object {
+                      "cooked": " world",
+                      "raw": " world",
+                    },
+                  },
+                ],
+                "type": "TemplateLiteral",
+              },
+              "type": "JSXExpressionContainer",
+            },
+          },
+        ],
+        "name": Object {
+          "name": "div",
+          "type": "JSXIdentifier",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse processing instructions 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "attributes": Array [
+        Object {
+          "name": Object {
+            "name": Object {
+              "name": "Link",
+              "type": "JSXIdentifier",
+            },
+            "namespace": Object {
+              "name": "jsxns",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXNamespacedName",
+          },
+          "type": "JSXAttribute",
+          "value": Object {
+            "raw": "\\"next/Link\\"",
+            "type": "Literal",
+            "value": "next/Link",
+          },
+        },
+        Object {
+          "name": Object {
+            "name": Object {
+              "name": "Lab",
+              "type": "JSXIdentifier",
+            },
+            "namespace": Object {
+              "name": "jsxns",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXNamespacedName",
+          },
+          "type": "JSXAttribute",
+          "value": Object {
+            "raw": "\\"@myapp/component-lab\\"",
+            "type": "Literal",
+            "value": "@myapp/component-lab",
+          },
+        },
+        Object {
+          "name": Object {
+            "name": Object {
+              "name": "Lazy",
+              "type": "JSXIdentifier",
+            },
+            "namespace": Object {
+              "name": "jsxns-async",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXNamespacedName",
+          },
+          "type": "JSXAttribute",
+          "value": Object {
+            "raw": "\\"@myapp/component-lab\\"",
+            "type": "Literal",
+            "value": "@myapp/component-lab",
+          },
+        },
+        Object {
+          "name": Object {
+            "name": Object {
+              "name": "css",
+              "type": "JSXIdentifier",
+            },
+            "namespace": Object {
+              "name": "cssns",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXNamespacedName",
+          },
+          "type": "JSXAttribute",
+          "value": Object {
+            "raw": "\\"./styles.modules.css\\"",
+            "type": "Literal",
+            "value": "./styles.modules.css",
+          },
+        },
+      ],
+      "type": "HBProcessingInstruction",
+    },
+    Object {
+      "raw": "
+",
+      "type": "JSXText",
+      "value": "
+",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    ",
+          "type": "JSXText",
+          "value": "
+    ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "raw": "
+        ",
+              "type": "JSXText",
+              "value": "
+        ",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "expression": Object {
+                    "name": "name",
+                    "type": "Identifier",
+                  },
+                  "type": "JSXExpressionContainer",
+                },
+                Object {
+                  "raw": "
+    ",
+                  "type": "JSXText",
+                  "value": "
+    ",
+                },
+              ],
+              "closingElement": Object {
+                "name": Object {
+                  "name": Object {
+                    "name": "Link",
+                    "type": "JSXIdentifier",
+                  },
+                  "namespace": Object {
+                    "name": "Lab",
+                    "type": "JSXIdentifier",
+                  },
+                  "type": "JSXNamespacedName",
+                },
+                "type": "JSXClosingElement",
+              },
+              "openingElement": Object {
+                "attributes": Array [],
+                "name": Object {
+                  "name": Object {
+                    "name": "Link",
+                    "type": "JSXIdentifier",
+                  },
+                  "namespace": Object {
+                    "name": "Lab",
+                    "type": "JSXIdentifier",
+                  },
+                  "type": "JSXNamespacedName",
+                },
+                "selfClosing": false,
+                "type": "JSXOpeningElement",
+              },
+              "type": "JSXElement",
+            },
+            Object {
+              "raw": "
+    ",
+              "type": "JSXText",
+              "value": "
+    ",
+            },
+            Object {
+              "children": Array [],
+              "closingElement": null,
+              "openingElement": Object {
+                "attributes": Array [
+                  Object {
+                    "name": Object {
+                      "name": "person",
+                      "type": "JSXIdentifier",
+                    },
+                    "type": "JSXAttribute",
+                    "value": Object {
+                      "expression": Object {
+                        "name": "this",
+                        "type": "Identifier",
+                      },
+                      "type": "JSXExpressionContainer",
+                    },
+                  },
+                ],
+                "name": Object {
+                  "name": Object {
+                    "name": "PersonOverview",
+                    "type": "JSXIdentifier",
+                  },
+                  "namespace": Object {
+                    "name": "Lazy",
+                    "type": "JSXIdentifier",
+                  },
+                  "type": "JSXNamespacedName",
+                },
+                "selfClosing": true,
+                "type": "JSXOpeningElement",
+              },
+              "type": "JSXElement",
+            },
+            Object {
+              "raw": "
+",
+              "type": "JSXText",
+              "value": "
+",
+            },
+          ],
+          "closingElement": Object {
+            "name": Object {
+              "name": "Link",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXClosingElement",
+          },
+          "openingElement": Object {
+            "attributes": Array [
+              Object {
+                "name": Object {
+                  "name": "href",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXAttribute",
+                "value": Object {
+                  "raw": "\\"/person/[name]\\"",
+                  "type": "Literal",
+                  "value": "/person/[name]",
+                },
+              },
+              Object {
+                "name": Object {
+                  "name": "as",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXAttribute",
+                "value": Object {
+                  "expression": Object {
+                    "expressions": Array [
+                      Object {
+                        "name": "name",
+                        "type": "Identifier",
+                      },
+                    ],
+                    "quasis": Array [
+                      Object {
+                        "tail": false,
+                        "type": "TemplateElement",
+                        "value": Object {
+                          "cooked": "/person/",
+                          "raw": "/person/",
+                        },
+                      },
+                      Object {
+                        "tail": true,
+                        "type": "TemplateElement",
+                        "value": Object {
+                          "cooked": "",
+                          "raw": "",
+                        },
+                      },
+                    ],
+                    "type": "TemplateLiteral",
+                  },
+                  "type": "JSXExpressionContainer",
+                },
+              },
+            ],
+            "name": Object {
+              "name": "Link",
+              "type": "JSXIdentifier",
+            },
+            "selfClosing": false,
+            "type": "JSXOpeningElement",
+          },
+          "type": "JSXElement",
+        },
+      ],
+      "closingElement": Object {
+        "name": Object {
+          "name": "div",
+          "type": "JSXIdentifier",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [
+          Object {
+            "name": Object {
+              "name": Object {
+                "name": "container",
+                "type": "JSXIdentifier",
+              },
+              "namespace": Object {
+                "name": "css",
+                "type": "JSXIdentifier",
+              },
+              "type": "JSXNamespacedName",
+            },
+            "type": "JSXAttribute",
+            "value": null,
+          },
+          Object {
+            "name": Object {
+              "name": Object {
+                "name": "bg-highlight",
+                "type": "JSXIdentifier",
+              },
+              "namespace": Object {
+                "name": "css",
+                "type": "JSXIdentifier",
+              },
+              "type": "JSXNamespacedName",
+            },
+            "type": "JSXAttribute",
+            "value": Object {
+              "expression": Object {
+                "name": "isHighlighted",
+                "type": "Identifier",
+              },
+              "type": "JSXExpressionContainer",
+            },
+          },
+        ],
+        "name": Object {
+          "name": "div",
+          "type": "JSXIdentifier",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse render props 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "attributes": Array [
+        Object {
+          "name": Object {
+            "name": Object {
+              "name": "Theme",
+              "type": "JSXIdentifier",
+            },
+            "namespace": Object {
+              "name": "jsxns",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXNamespacedName",
+          },
+          "type": "JSXAttribute",
+          "value": Object {
+            "raw": "\\"./theme\\"",
+            "type": "Literal",
+            "value": "./theme",
+          },
+        },
+      ],
+      "type": "HBProcessingInstruction",
+    },
+    Object {
+      "raw": "
+",
+      "type": "JSXText",
+      "value": "
+",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    ",
+          "type": "JSXText",
+          "value": "
+    ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "raw": "
+        ",
+              "type": "JSXText",
+              "value": "
+        ",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "expression": Object {
+                    "isPrivate": false,
+                    "property": Object {
+                      "name": "label",
+                      "type": "Identifier",
+                    },
+                    "type": "HBParentScopeExpression",
+                  },
+                  "type": "JSXExpressionContainer",
+                },
+                Object {
+                  "raw": "
+    ",
+                  "type": "JSXText",
+                  "value": "
+    ",
+                },
+              ],
+              "closingElement": Object {
+                "name": Object {
+                  "name": "button",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXClosingElement",
+              },
+              "openingElement": Object {
+                "attributes": Array [
+                  Object {
+                    "name": Object {
+                      "name": "class",
+                      "type": "JSXIdentifier",
+                    },
+                    "type": "JSXAttribute",
+                    "value": Object {
+                      "expression": Object {
+                        "expressions": Array [
+                          Object {
+                            "name": "mode",
+                            "type": "Identifier",
+                          },
+                        ],
+                        "quasis": Array [
+                          Object {
+                            "tail": false,
+                            "type": "TemplateElement",
+                            "value": Object {
+                              "cooked": "btn btn-",
+                              "raw": "btn btn-",
+                            },
+                          },
+                          Object {
+                            "tail": true,
+                            "type": "TemplateElement",
+                            "value": Object {
+                              "cooked": "",
+                              "raw": "",
+                            },
+                          },
+                        ],
+                        "type": "TemplateLiteral",
+                      },
+                      "type": "JSXExpressionContainer",
+                    },
+                  },
+                ],
+                "name": Object {
+                  "name": "button",
+                  "type": "JSXIdentifier",
+                },
+                "selfClosing": false,
+                "type": "JSXOpeningElement",
+              },
+              "type": "JSXElement",
+            },
+            Object {
+              "raw": "
+",
+              "type": "JSXText",
+              "value": "
+",
+            },
+          ],
+          "closingElement": Object {
+            "name": Object {
+              "name": Object {
+                "name": Object {
+                  "name": "Consumer",
+                  "type": "JSXIdentifier",
+                },
+                "qualifier": Object {
+                  "name": "children",
+                  "type": "JSXIdentifier",
+                },
+                "type": "HBQualifiedName",
+              },
+              "namespace": Object {
+                "name": "Theme",
+                "type": "JSXIdentifier",
+              },
+              "type": "JSXNamespacedName",
+            },
+            "type": "JSXClosingElement",
+          },
+          "openingElement": Object {
+            "attributes": Array [],
+            "name": Object {
+              "name": Object {
+                "name": Object {
+                  "name": "Consumer",
+                  "type": "JSXIdentifier",
+                },
+                "qualifier": Object {
+                  "name": "children",
+                  "type": "JSXIdentifier",
+                },
+                "type": "HBQualifiedName",
+              },
+              "namespace": Object {
+                "name": "Theme",
+                "type": "JSXIdentifier",
+              },
+              "type": "JSXNamespacedName",
+            },
+            "selfClosing": false,
+            "type": "JSXOpeningElement",
+          },
+          "type": "JSXElement",
+        },
+      ],
+      "closingElement": Object {
+        "name": Object {
+          "name": Object {
+            "name": "Consumer",
+            "type": "JSXIdentifier",
+          },
+          "namespace": Object {
+            "name": "Theme",
+            "type": "JSXIdentifier",
+          },
+          "type": "JSXNamespacedName",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [],
+        "name": Object {
+          "name": Object {
+            "name": "Consumer",
+            "type": "JSXIdentifier",
+          },
+          "namespace": Object {
+            "name": "Theme",
+            "type": "JSXIdentifier",
+          },
+          "type": "JSXNamespacedName",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse scoped CSS 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    article {
+        border: ",
+          "type": "JSXText",
+          "value": "
+    article {
+        border: ",
+        },
+        Object {
+          "expression": Object {
+            "name": "borderWidth",
+            "type": "Identifier",
+          },
+          "type": "JSXExpressionContainer",
+        },
+        Object {
+          "raw": "px solid gray;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+",
+          "type": "JSXText",
+          "value": "px solid gray;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+",
+        },
+        Object {
+          "raw": "
+",
+          "type": "JSXText",
+          "value": "
+",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "raw": "
+    ",
+              "type": "JSXText",
+              "value": "
+    ",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "expression": Object {
+                    "name": "title",
+                    "type": "Identifier",
+                  },
+                  "type": "JSXExpressionContainer",
+                },
+                Object {
+                  "raw": "
+    ",
+                  "type": "JSXText",
+                  "value": "
+    ",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "expression": Object {
+                        "name": "content",
+                        "type": "Identifier",
+                      },
+                      "type": "JSXExpressionContainer",
+                    },
+                    Object {
+                      "raw": "
+",
+                      "type": "JSXText",
+                      "value": "
+",
+                    },
+                  ],
+                  "closingElement": Object {
+                    "name": Object {
+                      "name": "p",
+                      "type": "JSXIdentifier",
+                    },
+                    "type": "JSXClosingElement",
+                  },
+                  "openingElement": Object {
+                    "attributes": Array [],
+                    "name": Object {
+                      "name": "p",
+                      "type": "JSXIdentifier",
+                    },
+                    "selfClosing": false,
+                    "type": "JSXOpeningElement",
+                  },
+                  "type": "JSXElement",
+                },
+              ],
+              "closingElement": Object {
+                "name": Object {
+                  "name": "h2",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXClosingElement",
+              },
+              "openingElement": Object {
+                "attributes": Array [],
+                "name": Object {
+                  "name": "h2",
+                  "type": "JSXIdentifier",
+                },
+                "selfClosing": false,
+                "type": "JSXOpeningElement",
+              },
+              "type": "JSXElement",
+            },
+          ],
+          "closingElement": Object {
+            "name": Object {
+              "name": "article",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXClosingElement",
+          },
+          "openingElement": Object {
+            "attributes": Array [],
+            "name": Object {
+              "name": "article",
+              "type": "JSXIdentifier",
+            },
+            "selfClosing": false,
+            "type": "JSXOpeningElement",
+          },
+          "type": "JSXElement",
+        },
+      ],
+      "closingElement": Object {
+        "name": Object {
+          "name": "style",
+          "type": "JSXIdentifier",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [],
+        "name": Object {
+          "name": "style",
+          "type": "JSXIdentifier",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;
+
+exports[`parser should parse variable access 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "raw": "
+    ",
+          "type": "JSXText",
+          "value": "
+    ",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "expression": Object {
+                "name": "title",
+                "type": "Identifier",
+              },
+              "type": "JSXExpressionContainer",
+            },
+            Object {
+              "raw": "
+    ",
+              "type": "JSXText",
+              "value": "
+    ",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "expression": Object {
+                    "isPrivate": false,
+                    "property": Object {
+                      "name": "message",
+                      "type": "Identifier",
+                    },
+                    "type": "HBThisScopeExpression",
+                  },
+                  "type": "JSXExpressionContainer",
+                },
+                Object {
+                  "raw": "
+    ",
+                  "type": "JSXText",
+                  "value": "
+    ",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "expression": Object {
+                        "object": Object {
+                          "object": Object {
+                            "object": Object {
+                              "name": "array",
+                              "type": "Identifier",
+                            },
+                            "property": Object {
+                              "raw": "\\"hello-world\\"",
+                              "type": "Literal",
+                              "value": "hello-world",
+                            },
+                            "type": "MemberExpression",
+                          },
+                          "property": Object {
+                            "name": "foo",
+                            "type": "Identifier",
+                          },
+                          "type": "MemberExpression",
+                        },
+                        "property": Object {
+                          "type": "Literal",
+                          "value": 0,
+                        },
+                        "type": "MemberExpression",
+                      },
+                      "type": "JSXExpressionContainer",
+                    },
+                    Object {
+                      "raw": "
+",
+                      "type": "JSXText",
+                      "value": "
+",
+                    },
+                  ],
+                  "closingElement": Object {
+                    "name": Object {
+                      "name": "p",
+                      "type": "JSXIdentifier",
+                    },
+                    "type": "JSXClosingElement",
+                  },
+                  "openingElement": Object {
+                    "attributes": Array [],
+                    "name": Object {
+                      "name": "p",
+                      "type": "JSXIdentifier",
+                    },
+                    "selfClosing": false,
+                    "type": "JSXOpeningElement",
+                  },
+                  "type": "JSXElement",
+                },
+              ],
+              "closingElement": Object {
+                "name": Object {
+                  "name": "p",
+                  "type": "JSXIdentifier",
+                },
+                "type": "JSXClosingElement",
+              },
+              "openingElement": Object {
+                "attributes": Array [],
+                "name": Object {
+                  "name": "p",
+                  "type": "JSXIdentifier",
+                },
+                "selfClosing": false,
+                "type": "JSXOpeningElement",
+              },
+              "type": "JSXElement",
+            },
+          ],
+          "closingElement": Object {
+            "name": Object {
+              "name": "h2",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXClosingElement",
+          },
+          "openingElement": Object {
+            "attributes": Array [],
+            "name": Object {
+              "name": "h2",
+              "type": "JSXIdentifier",
+            },
+            "selfClosing": false,
+            "type": "JSXOpeningElement",
+          },
+          "type": "JSXElement",
+        },
+      ],
+      "closingElement": Object {
+        "name": Object {
+          "name": "article",
+          "type": "JSXIdentifier",
+        },
+        "type": "JSXClosingElement",
+      },
+      "openingElement": Object {
+        "attributes": Array [
+          Object {
+            "name": Object {
+              "name": "class",
+              "type": "JSXIdentifier",
+            },
+            "type": "JSXAttribute",
+            "value": Object {
+              "expression": Object {
+                "name": "classNames",
+                "type": "Identifier",
+              },
+              "type": "JSXExpressionContainer",
+            },
+          },
+        ],
+        "name": Object {
+          "name": "article",
+          "type": "JSXIdentifier",
+        },
+        "selfClosing": false,
+        "type": "JSXOpeningElement",
+      },
+      "type": "JSXElement",
+    },
+  ],
+  "closingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXClosingFragment",
+  },
+  "openingFragment": Object {
+    "attributes": Array [],
+    "selfClosing": false,
+    "type": "JSXOpeningFragment",
+  },
+  "type": "JSXFragment",
+}
+`;

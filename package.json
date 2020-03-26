@@ -1,0 +1,14 @@
+{
+  "name": "@hbsx/parser",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "pegjs ./src/parser.pegjs",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^25.2.0",
+    "pegjs": "^0.10.0"
+  }
+}

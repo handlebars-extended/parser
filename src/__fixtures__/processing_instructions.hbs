@@ -1,0 +1,12 @@
+<?hbsx
+    jsxns:Link="next/Link"
+    jsxns:Lab="@myapp/component-lab"
+    jsxns-async:Lazy="@myapp/component-lab"
+    cssns:css="./styles.modules.css"
+?>
+<div css:container css:bg-highlight={{ isHighlighted }}>
+    <Link href="/person/[name]" as="/person/{{ name }}">
+        <Lab:Link>{{ name }}</Lab:Link>
+    </Link>
+    <Lazy:PersonOverview person={{ this }} />
+</div>
