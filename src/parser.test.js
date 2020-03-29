@@ -56,6 +56,8 @@ describe('parser', () => {
 });
 
 async function parseFile(fileName) {
-    const content = await fs.promises.readFile(path.join(__dirname, '__fixtures__', `${fileName}.hbs`));
+    const content = await fs.promises.readFile(
+        path.join(__dirname, '__fixtures__', `${fileName}.hbs`)
+    );
     return parse(content.toString());
 }
